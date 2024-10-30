@@ -12,8 +12,22 @@ body {
 }
 
 header {
-    border-bottom: solid 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     padding: 20px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.barbie-logo {
+    height: 50px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+.flix {
     font-size: 36px;
     color: white;
     font-weight: bold;
