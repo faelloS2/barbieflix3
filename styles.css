@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+    background-color: #fef6fb;
+}
+
+.border-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/combined_ribbon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 2.5rem;
+    color: #ff5db1;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.chamada {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-image: url('images/glitter_sticker.png');
+    background-size: cover;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.chamada h1 {
+    font-size: 2rem;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.chamada p {
+    font-size: 1.2rem;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.chamada iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.decorative-small {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.top-left {
+    top: 15px;
+    left: 15px;
+}
+
+.bottom-right {
+    bottom: 15px;
+    right: 15px;
+}
+
+.barbie-large {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.categoria {
+    padding: 30px;
+    text-align: center;
+}
+
+.categoria h2 {
+    font-size: 1.8rem;
+    color: #ff5db1;
+    margin-bottom: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.categoria-videos img {
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+       opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    transform: scale(1.05);
+       opacity: 1.0;
+}
